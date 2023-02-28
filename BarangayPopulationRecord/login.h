@@ -225,6 +225,7 @@ namespace BarangayPopulationRecord {
 		}
 #pragma endregion
 
+		// GLOBAL CONNECTION
 		String^ strConnection = "server=localhost;database=barangaypopulationrecord;uid=root;password=1234";
 		MySqlConnection^ conn = gcnew MySqlConnection(strConnection);
 
